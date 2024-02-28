@@ -1,0 +1,27 @@
+<!DOCTYPE html> <!-- Define o tipo de documento como HTML5 -->
+<html lang="en"> <!-- Define o idioma como inglês -->
+<head>
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define a largura da tela como o dispositivo e a escala inicial -->
+    <title>Compra de Ingresso - Zoológico</title> <!-- Define o título da página -->
+    <link rel="stylesheet" href="ingresso.css"> <!-- Link para o arquivo CSS externo chamado "ingresso.css" -->
+</head>
+<body>
+    <h1>Compra de Ingresso</h1> <!-- Título principal da página -->
+
+    <!-- Formulário para compra de ingresso -->
+    <form id="form-ingresso">
+        <label for="data">Escolha a data da sua visita:</label> <!-- Texto explicativo para o campo de data -->
+        <input type="date" id="data" name="data" required> <!-- Campo de entrada para a data de visita -->
+
+        <button type="submit">Comprar Ingresso</button> <!-- Botão de envio do formulário -->
+    </form>
+
+    <!-- Div para exibir o aviso de compra -->
+    <div id="aviso-compra">
+        <p id="aviso-texto"></p> <!-- Parágrafo para exibir o texto do aviso de compra -->
+    </div>
+
+    <script src="ingresso.js"></script> <!-- Link para o arquivo JavaScript externo chamado "ingresso.js" -->
+</body>
+</html>

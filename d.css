@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d9f5d9; /* Cor de fundo geral para o corpo da página - */
+    color: #837466; /* Cor do texto padrão -  */
+    text-align: center; /* Centraliza o texto na página */
+}
+
+h1 {
+    color: #060708; /* Cor do título principal - */
+}
+
+.animal {
+    max-width: 600px; /* Define a largura máxima para o bloco do animal */
+    margin: 20px auto; /* Centraliza o bloco do animal na página */
+    padding: 20px;
+    background-color: #045c50; /* Cor de fundo para o bloco do animal -  */
+    border: 1px solid #668cff; /* Borda do bloco do animal - */
+    border-radius: 10px; /* Borda arredondada */
+}
+
+.animal img {
+    max-width: 50%;
+    height: auto;
+    border: 3px solid #7aa4ce; /* Borda ao redor da imagem -  */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+.animal h2 {
+    color: #010305; /* Cor do título do animal - */
+    margin-top: 10px;
+}
+
+button {
+    background-color: #000; /* Cor de fundo para os botões - */
+    color: #fff; /* Cor do texto nos botões -*/
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333; /* Cor de fundo quando o botão é hover - */
+}
+
+.ingresso {
+    margin-top: 20px;
+}
+
+.ingresso a {
+    text-decoration: none;
+    color: #004080; /* Cor do link para o bloco de ingresso -  */
+}
+
+.ingresso button {
+    background-color: #000; /* Cor de fundo para o botão de comprar ingresso -*/
+}
+
+.ingresso button:hover {
+    background-color: #333; /* Cor de fundo quando o botão de ingresso é hover -*/
+}

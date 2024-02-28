@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f7ff; /* Cor de fundo geral para o corpo da página - azul claro */
+    color: #333; /* Cor do texto padrão - preto */
+}
+
+h1 {
+    color: #004080; /* Cor do título principal - azul escuro */
+    text-align: center; /* Centraliza o título */
+}
+
+.animal {
+    max-width: 600px; /* Define a largura máxima para o bloco do animal */
+    margin: 20px auto; /* Centraliza o bloco do animal na página */
+    padding: 20px;
+    background-color: #b3d9ff; /* Cor de fundo para o bloco do animal - azul médio */
+    border: 1px solid #99c2ff; /* Borda do bloco do animal - azul claro */
+    border-radius: 10px; /* Borda arredondada */
+}
+
+.animal img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #004080; /* Borda ao redor da imagem - azul escuro */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+.animal h2 {
+    color: #004080; /* Cor do título do animal - azul escuro */
+    margin-top: 10px;
+}
+
+.animal p {
+    text-align: justify; /* Justifica o texto */
+}
